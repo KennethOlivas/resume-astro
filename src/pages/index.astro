@@ -9,12 +9,12 @@ import SwitchTheme from "@components/SwitchTheme";
 ---
 
 <Layout>
+  <SwitchTheme client:load />
   <div
     class="min-h-screen bg-gradient-to-bl from-pink-300 via-purple-300 to-indigo-400 flex justify-center w-full dark:bg-gradient-to-r dark:from-[#1A120B] dark:via-black dark:to-[#1A120B]">
     <div
-      class="2xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-2xl max-w-none p-3 mx-auto my-auto bg-neutral-100 dark:bg-neutral-900 xsm:p-8 sm:p-9 md:p-16 sm:rounded-md shadow-2xl transition-all duration-500 m-0 sm:my-8">
+      class="2xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-2xl max-w-none p-3 mx-auto my-auto bg-neutral-100 dark:bg-neutral-900 xsm:p-8 sm:p-9 md:p-16 sm:rounded-md shadow-2xl transition-all duration-500 m-0 sm:my-8 animate-fade-in-up">
       <Header />
-      <SwitchTheme client:load />
       <main class="grid grid-cols-2 md:grid-cols-12 mt-8 gap-12">
         <Education />
         <section class="col-span-2 md:col-span-4">
@@ -34,7 +34,6 @@ import SwitchTheme from "@components/SwitchTheme";
           class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-100">
           https:/www.linkedin.com/in/kenneth-olivas
         </a>
-
         <p class="text-neutral-600 dark:text-neutral-400">
           kennetholivas1@gmail.com
         </p>
@@ -43,3 +42,20 @@ import SwitchTheme from "@components/SwitchTheme";
     </div>
   </div>
 </Layout>
+
+<style>
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.7s ease-out;
+  }
+</style>
