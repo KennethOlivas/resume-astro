@@ -39,8 +39,8 @@ Follow these steps to run the project locally:
 4. Open the project in your browser at `http://localhost:3000`.
 
 ## 🖼️ Screenshots
-
-*(You can add screenshots of the page here if available.)*
+![image](https://github.com/user-attachments/assets/3004bee2-2dba-4bed-bf09-d8730f091af9)
+![image](https://github.com/user-attachments/assets/8527f389-82bf-4cee-aa83-e80f4ad294ff)
 
 ## 📜 License
 
