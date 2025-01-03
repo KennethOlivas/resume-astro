@@ -1,6 +1,5 @@
 import type Content from "../types/Content";
 
-
 export const experienceData: Content[] = [
   {
     title: "Full-stack Developer",
@@ -21,7 +20,7 @@ export const experienceData: Content[] = [
   {
     title: "Full-stack Developer",
     company: "MeltStudio",
-    date: "May 2022 - Mar -2023",
+    date: "May 2022 - Jun -2025",
     location: "Remote",
     description:
       "As a Full-stack developer with expertise in technologies such as Next.js, React Native, Firebase, Django, Express, and TypeScript, I have a proven track record of developing high-quality web and mobile applications. With my skills, I ensure that the user interface is modern and responsive, the backend is seamlessly integrated with Firebase, and TypeScript is utilized to enhance the quality and security of the code. My experience in crafting APIs, integrating Firebase, and using TypeScript makes me a valuable addition to any project. I am committed to delivering innovative solutions that meet the needs of both clients and end-users.",

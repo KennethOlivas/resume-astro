@@ -3,7 +3,7 @@ import type Content from "../types/Content";
 
 export const educationData: Content[] = [
   {
-    title: "Universidad Automana de León UNAN-LEON León, Nicaragua",
+    title: "UNAN León - Universidad Nacional Autónoma de Nicaragua, Nicaragua",
     date: "2017 - 2021",
     location: "Nicaragua",
     description: "Systems software engineering",
