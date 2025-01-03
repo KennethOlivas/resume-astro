@@ -11,12 +11,12 @@ const { company, title, date, location, description } = Astro.props;
 ---
 
 <div>
-  <h4 class="capitalize pb-0.5 font-semibold text-lg dark:text-neutral-100">
+  <h3 class="capitalize pb-0.5 font-semibold text-lg dark:text-neutral-100">
     {company}
     {company && "/"}
     {title}
-  </h4>
-  <span class="text-neutral-600 pb-0.5 dark:text-neutral-400">
+  </h3>
+  <span class="text-neutral-600 pb-0.5 dark:text-neutral-400 font-medium">
     {date} / {location}
   </span>
   <p class="text-neutral-600 dark:text-neutral-400">{description}</p>
