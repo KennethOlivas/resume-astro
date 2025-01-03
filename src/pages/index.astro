@@ -6,6 +6,7 @@ import Certifications from "@components/Certifications.astro";
 import ListSection from "@components/ListSection.astro";
 import { skills, others } from "@data/index";
 import SwitchTheme from "@components/SwitchTheme";
+import Footer from "@components/Footer.astro";
 ---
 
 <Layout>
@@ -24,21 +25,7 @@ import SwitchTheme from "@components/SwitchTheme";
           <ListSection title="Languages" data={["English", "Spanish"]} />
         </section>
       </main>
-      <footer class="mt-20">
-        <p class="text-neutral-600 dark:text-neutral-400">
-          &copy; {new Date().getFullYear()} - Kenneth Olivas
-        </p>
-        <a
-          href="https:/www.linkedin.com/in/kenneth-olivas-027153208"
-          target="_blank"
-          class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-100">
-          https:/www.linkedin.com/in/kenneth-olivas
-        </a>
-        <p class="text-neutral-600 dark:text-neutral-400">
-          kennetholivas1@gmail.com
-        </p>
-        <p class="text-neutral-600 dark:text-neutral-400">(+505) 81166983</p>
-      </footer>
+      <Footer />
     </div>
   </div>
 </Layout>
