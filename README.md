@@ -1,48 +1,50 @@
-# Astro Starter Kit: Basics
+# Kenneth Olivas Resume
 
-```sh
-npm create astro@latest -- --template basics
-```
+A personal webpage to showcase my professional experience and skills in a resume format.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Technologies Used
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **[Astro](https://astro.build/):** A modern framework for building fast websites.
+- **[Tailwind CSS](https://tailwindcss.com/):** A CSS framework for rapid and customizable styling.
+- **[React](https://reactjs.org/):** A JavaScript library for building interactive user interfaces.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 📚 Description
 
-## 🚀 Project Structure
+This project is designed as a personal resume page to highlight professional experience, skills, and relevant links. It is fully responsive and can be used as a template by anyone in need.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🔗 Relevant Links
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- [Kenneth Olivas' LinkedIn](#) (update with your LinkedIn link).
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🛠️ Installation and Usage
 
-## 🧞 Commands
+Follow these steps to run the project locally:
 
-All commands are run from the root of the project, from a terminal:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KennethOlivas/resume-astro
+   cd resume-astro
+   ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## 👀 Want to learn more?
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+4. Open the project in your browser at `http://localhost:3000`.
+
+## 🖼️ Screenshots
+
+*(You can add screenshots of the page here if available.)*
+
+## 📜 License
+
+This project is available as a free-to-use template. Anyone can use, modify, and adapt it to their needs.
+
+---
+**Author:** Kenneth Olivas
