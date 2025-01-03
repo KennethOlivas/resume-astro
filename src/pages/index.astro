@@ -1,11 +1,45 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Education from "@components/Education.astro";
+import Certifications from "@components/Certifications.astro";
+import ListSection from "@components/ListSection.astro";
+import { skills, others } from "@data/index";
+import SwitchTheme from "@components/SwitchTheme";
 ---
 
 <Layout>
-	<Welcome />
+  <div
+    class="min-h-screen bg-gradient-to-bl from-pink-300 via-purple-300 to-indigo-400 flex justify-center w-full dark:bg-gradient-to-r dark:from-[#1A120B] dark:via-black dark:to-[#1A120B]">
+    <div
+      class="2xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-2xl max-w-none p-3 mx-auto my-auto bg-neutral-100 dark:bg-neutral-900 xsm:p-8 sm:p-9 md:p-16 sm:rounded-md shadow-2xl transition-all duration-500 m-0 sm:my-8">
+      <Header />
+      <SwitchTheme client:load />
+      <main class="grid grid-cols-2 md:grid-cols-12 mt-8 gap-12">
+        <Education />
+        <section class="col-span-2 md:col-span-4">
+          <Certifications />
+          <ListSection title="Skills" data={skills} />
+          <ListSection title="Others" data={others} />
+          <ListSection title="Languages" data={["English", "Spanish"]} />
+        </section>
+      </main>
+      <footer class="mt-20">
+        <p class="text-neutral-600 dark:text-neutral-400">
+          &copy; {new Date().getFullYear()} - Kenneth Olivas
+        </p>
+        <a
+          href="https:/www.linkedin.com/in/kenneth-olivas-027153208"
+          target="_blank"
+          class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-100">
+          https:/www.linkedin.com/in/kenneth-olivas
+        </a>
+
+        <p class="text-neutral-600 dark:text-neutral-400">
+          kennetholivas1@gmail.com
+        </p>
+        <p class="text-neutral-600 dark:text-neutral-400">(+505) 81166983</p>
+      </footer>
+    </div>
+  </div>
 </Layout>

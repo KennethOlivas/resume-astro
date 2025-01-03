@@ -1,0 +1,36 @@
+---
+import Title from "@components/Title.astro";
+import { experienceData, educationData } from "@data/index";
+import Content from "@components/Content.astro";
+---
+
+<section class="col-span-2 md:col-span-8">
+  <Title title="Experience" />
+  <div class="flex flex-col space-y-4 mb-6">
+    {
+      experienceData.map((experience) => (
+        <Content
+          title={experience.title}
+          date={experience.date}
+          description={experience.description}
+          location={experience.location}
+          company={experience.company}
+        />
+      ))
+    }
+  </div>
+  <Title title="Education" />
+  <div class="flex flex-col space-y-4">
+    {
+      educationData.map((education) => (
+        <Content
+          title={education.title}
+          date={education.date}
+          description={education.description}
+          location={education.location}
+          company={education.company}
+        />
+      ))
+    }
+  </div>
+</section>

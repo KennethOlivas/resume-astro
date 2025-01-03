@@ -1,0 +1,22 @@
+---
+type Props = {
+  title: string;
+  data: string[];
+};
+
+const { title, data } = Astro.props;
+---
+
+<div class="mt-4">
+  <h4 class="capitalize pb-0.5 font-semibold text-lg dark:text-neutral-100">
+    {title}
+  </h4>
+  <ul
+    class="capitalize pb-0.5 text-neutral-600 dark:text-neutral-400 list-disc ml-4">
+    {
+      data.map((item) => (
+        <li>{item}</li>
+      ))
+    }
+  </ul>
+</div>

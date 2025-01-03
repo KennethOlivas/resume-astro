@@ -1,0 +1,23 @@
+---
+type Props = {
+  company: string | undefined;
+  title: string;
+  date: string;
+  location: string;
+  description: string;
+};
+
+const { company, title, date, location, description } = Astro.props;
+---
+
+<div>
+  <h4 class="capitalize pb-0.5 font-semibold text-lg dark:text-neutral-100">
+    {company}
+    {company && "/"}
+    {title}
+  </h4>
+  <span class="text-neutral-600 pb-0.5 dark:text-neutral-400">
+    {date} / {location}
+  </span>
+  <p class="text-neutral-600 dark:text-neutral-400">{description}</p>
+</div>
