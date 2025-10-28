@@ -14,31 +14,35 @@ This project is designed as a personal resume page to highlight professional exp
 
 ## 🔗 Relevant Links
 
-- [Kenneth Olivas' LinkedIn](#) (update with your LinkedIn link).
+- Kenneth Olivas' LinkedIn: <https://www.linkedin.com/in/YOUR-USERNAME> (replace with your actual link).
 
 ## 🛠️ Installation and Usage
 
 Follow these steps to run the project locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/KennethOlivas/resume-astro
    cd resume-astro
    ```
 
 2. Install dependencies:
+
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. Start the development server:
+
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
-4. Open the project in your browser at `http://localhost:3000`.
+4. Open the project in your browser at `http://localhost:4321` (default Astro dev port).
 
 ## 🖼️ Screenshots
+
 ![image](https://github.com/user-attachments/assets/3004bee2-2dba-4bed-bf09-d8730f091af9)
 ![image](https://github.com/user-attachments/assets/8527f389-82bf-4cee-aa83-e80f4ad294ff)
 
